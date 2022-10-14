@@ -4,7 +4,7 @@
  *
  * Return:0 if the code compiles without error
 */
-init main(void)
+int main(void)
 {
 	printf("Size of a char datatype is %ld byte(s)\n", sizeof(char));
 	printf("Size of an int datatype is %ld byte(s)\n", sizeof(int));
