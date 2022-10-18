@@ -2,12 +2,10 @@
 /**
  * _putchar - A function to print character
  *
- * @c: argument to be passed to the function
- *
  * Return: 0 on successful compilation
 */
 
-int _putchar(char c)
+int _putchar(void)
 {
 	_putchar('_');
 	_putchar('p');
