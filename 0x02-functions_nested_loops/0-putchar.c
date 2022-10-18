@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _putchar - A function to print character
- *@c - character to print
+ * @c: A character to be printed
  * Return: 0 on successful compilation
 */
 
