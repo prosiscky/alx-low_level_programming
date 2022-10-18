@@ -1,20 +1,28 @@
 #include "main.h"
 /**
  * _putchar - A function to print character
- *
+ *@c - character to print
  * Return: 0 on successful compilation
 */
 
-int _putchar(void)
+int _putchar(char c)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	if (c == '_')
+		_putchar('_');
+	else if (c == 'p')
+		_putchar('p');
+	else if (c == 'u')
+		_putchar('u');
+	else if (c == 't')
+		_putchar('t');
+	else if (c == 'c')
+		_putchar('c');
+	else if (c == 'h')
+		_putchar('h');
+	else if (c == 'a')
+		_putchar('a');
+	else if (c == 'r')
+		_putchar('r');
 	_putchar('\n');
 	return (0);
 }
