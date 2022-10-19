@@ -14,8 +14,8 @@ int _abs(int i)
 
 	if (i < 0)
 	{
-		k = k * (-1);
+		i = i * (-1);
 	}
-	absval = k;
+	absval = i;
 	return (absval);
 }
