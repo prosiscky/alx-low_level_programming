@@ -2,10 +2,14 @@
 /**
  * main - A function that test positive_or_negative function
  *
+ * Return: 0 for successfull compilation
 */
 
-int main(int n)
+int main(void)
 {
-	positive_or_negative(n);
-	return (n);
+	int i;
+	i = 0;
+
+	positive_or_negative(i);
+	return (0);
 }
