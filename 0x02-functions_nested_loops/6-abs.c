@@ -9,7 +9,6 @@
 
 int _abs(int i)
 {
-	int i = 0;
 	int absval;
 
 	if (i < 0)
