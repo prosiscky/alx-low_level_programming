@@ -14,5 +14,6 @@ extern int add(int, int);
 extern void print_to_98(int n);
 extern void print_times_table(int n);
 extern int positive_or_negative(int i);
+extern int largest_number(int a, int b, int c);
 #endif
 
