@@ -1,0 +1,1 @@
+This Directory holds files for more_pointers_arrays_strings exercises
