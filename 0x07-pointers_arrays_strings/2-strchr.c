@@ -11,14 +11,15 @@
 char *_strchr(char *s, char c)
 {
 
-	char *s = "hello";
-	char *f;
+	int i = 0;
 
-	f = _strchr(s, 'l');
-
-	if (f != NULL)
+	while (s[i] != '\0')
 	{
-		printf("%s\n", f);
+		i++;
+		if (s[i] == c)
+		{
+			return (&s[i]);
+		}
 	}
-	return (0);
+	return ('\0');
 }
