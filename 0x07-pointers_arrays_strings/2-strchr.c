@@ -2,11 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * _strchr - check the code
  *
+ * @s: string containing character to be searched for
+ * @c: character to be searched for
  * Return: Always 0.
  */
-int main(void)
+char *_strchr(char *s, char c)
 {
 	char *s = "hello";
 	char *f;
@@ -15,7 +17,7 @@ int main(void)
 
 	if (f != NULL)
 	{
-	printf("%s\n", f);
+		printf("%s\n", f);
 	}
 	return (0);
 }
