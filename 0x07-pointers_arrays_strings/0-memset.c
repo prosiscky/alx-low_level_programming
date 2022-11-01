@@ -4,6 +4,7 @@
  * @s: an array of memory address
  * @b: a constant value to be filled
  * @n: number of memory to be created
+ * Return: Returns a constant character
 */
 
 char *_memset(char *s, char b, unsigned int n)
