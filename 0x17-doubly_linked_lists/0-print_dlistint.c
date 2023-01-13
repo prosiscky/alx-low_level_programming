@@ -10,20 +10,18 @@
 size_t print_dlistint(const dlistint_t *h)
 {
 	size_t count = 0;
-	dlistint_t *tmp;
 
-	tmp = h;
-	if (tmp == NULL)
+	if (h == NULL)
 	{
 		printf("You passed an empty list");
 		return;
 	}
-	while (tmp != NULL)
+	while (h != NULL)
 	{
-		printf("%d\n", tmp->n);
+		printf("%d\n", h->n);
 		count++;
-		tmp = tmp->next
+		h = h->next
 	}
-	free(tmp);
+
 	return (count);
 }
