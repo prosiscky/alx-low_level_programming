@@ -1,0 +1,4 @@
+# A makefile that compiles a main.c file to school
+
+all: main.c school.c
+	gcc main.c school.c -o school
